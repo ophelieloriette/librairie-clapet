@@ -6,7 +6,6 @@
 */
 
 body {
-  max-width: 960px;
   margin: auto;
   border-bottom: 5px solid #d9d9d9;
   padding-bottom: 75px;
@@ -202,9 +201,11 @@ button {
   text-align: center;
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
-
-
-
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 85px;
+  margin: 0px;
 }
 
 .full-width {
@@ -229,9 +230,8 @@ button {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 35px;
-  width: 960px;
-  height: 350px;
-  background: url("../img/header-bg.jpeg");
+  height: 462px;
+  background: url("../img/background.png");
   background-size: cover;
   background-position: center bottom;
   overflow: hidden;
@@ -243,7 +243,6 @@ button {
   margin: 0;
   position: absolute;
   padding-top: 20px;
-  padding-bottom: 25px;
   bottom: 0;
   width: 100%;
   text-align: center;
@@ -258,10 +257,14 @@ button {
 
 .header__title {
   margin: 0;
+  font-size: 60px;
+  margin-bottom: 32px;
+  font-weight: 700;
 }
 
 .header__subtitle {
   margin: 0;
+  margin-bottom: 18px;
   font-size: 42px;
   text-shadow: 1px 1px 5px #000;
   font-weight: 200;
@@ -278,12 +281,17 @@ button {
   display: inline-block;
   font-size: 18px;
   font-weight: 300;
+  margin: 0px;
 }
 
 .nav-main__link {
   display: block;
   padding: 10px;
   color: #fff;
+  padding-top: 19px;
+  padding-bottom: 16px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .nav-main__link:hover {
   text-decoration: none;
