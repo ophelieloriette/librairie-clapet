@@ -96,6 +96,7 @@ button {
   padding: 0 15px;
   width: 960px;
   max-width: 100%;
+  text-align: center
 }
 
 .text-container {
@@ -197,7 +198,13 @@ button {
 }
 
 .chapo {
-  font-size: 1.6em;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+
+
+
 }
 
 .full-width {
@@ -256,9 +263,10 @@ button {
 .header__subtitle {
   margin: 0;
   font-size: 42px;
-  font-weight: 100;
   text-shadow: 1px 1px 5px #000;
   font-weight: 200;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 
@@ -268,6 +276,8 @@ button {
 
 .nav-main__item {
   display: inline-block;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 .nav-main__link {
@@ -332,14 +342,16 @@ button {
 
 .honey-pot__title {
   margin: 0;
-  font-size: 2em;
-  font-weight: bold;
+  font-size: 26px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .honey-pot__subtitle {
   margin: 0;
-  font-size: 1.6em;
-  font-weight: 200;
+  font-size: 22px;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -373,20 +385,23 @@ button {
 
 .news__date {
   margin: 0;
-  font-size: 1.8em;
+  font-size: 18px;
   color: #e8a27d;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 .news__title {
   margin: 0 0 15px;
-  font-weight: bold;
-  font-size: 2em;
+  font-weight: 500;
+  font-size: 24px;
   line-height: 1.4;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .news__text {
   margin: 0;
-  font-size: 1.4em;
+  font-size: 20px;
   line-height: 1.4;
 }
 
