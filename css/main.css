@@ -593,3 +593,12 @@ text-align: center;
 .map {
   width: 100%;
 }
+
+.bitmap {
+  min-width: 30%;
+  align-items: center;
+}
+
+.bitmap img {
+  width: 100%;
+}
