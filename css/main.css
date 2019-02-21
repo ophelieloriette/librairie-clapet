@@ -328,6 +328,8 @@ button {
 
 .honey-pot-list {
   text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 .honey-pot {
@@ -406,21 +408,24 @@ button {
   font-size: 18px;
   color: #e8a27d;
   font-family: 'Montserrat', sans-serif;
+  text-align: left;
 
 }
 
 .news__title {
   margin: 0 0 15px;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.4;
   font-family: 'Montserrat', sans-serif;
+  text-align: left;
 }
 
 .news__text {
   margin: 0;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 1.4;
+  text-align: left;
 }
 
 .page-list .news {
@@ -461,8 +466,23 @@ button {
 
 .news-list__news {
   grid-column: span 1;
+
+}
+.news-big {
+  display: grid;
+  grid-column: span 3;
+  grid-gap: 35px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  border-bottom: 1px solid #b0b0c5;
+  padding-bottom: 25px;
 }
 
+.news-texte {
+  grid-column: span 2;
+
+  text-align: left;
+}
 /**
 * -----------
 * Trumps
