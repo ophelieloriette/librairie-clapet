@@ -15,7 +15,7 @@ body {
 }
 
 p, li, td, th, textarea, caption, pre, blockquote, label, input, select, textarea {
-  font-size: 1.4em;
+  font-size: 18px;
   line-height: 1.4;
 }
 
@@ -96,6 +96,9 @@ button {
   width: 960px;
   max-width: 100%;
   text-align: center
+}
+.container-big {
+  width: 1200px;
 }
 
 .text-container {
@@ -314,6 +317,8 @@ button {
 .croix {
   padding-top: 60px;
   padding-bottom: 60px;
+  display: block;
+  margin: auto;
  
 }
 
@@ -524,7 +529,6 @@ margin-top: 50px;
 .auteur-citation {
   color: #1a1a1a;
   text-align: right;
-  margin-right: 120px;
   font-family: 'Work Sans', sans-serif;
 
 }
@@ -534,6 +538,8 @@ margin-top: 50px;
 
 .image-couverture {
   min-width: 50%;
+  margin-right: 40px;
+  align-items: center;
 }
 
 .chapo2 {
@@ -545,4 +551,11 @@ margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   margin: 0px;
+}
+.texte-2  {
+  margin: auto;
+  padding: 0 15px;
+  width: 960px;
+  max-width: 100%;
+  text-align: justify;
 }
