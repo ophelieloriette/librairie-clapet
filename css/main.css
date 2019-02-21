@@ -579,3 +579,17 @@ margin-top: 50px;
   max-width: 100%;
   text-align: justify;
 }
+
+.image-magasin {
+  margin-top: 40px;
+margin-right: auto; 
+margin-left : auto;
+padding:  15px;
+width: 1200px;
+max-width: 100%;
+text-align: center;
+}
+
+.map {
+  width: 100%;
+}
