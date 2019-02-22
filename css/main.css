@@ -637,3 +637,60 @@ text-align: center;
 .bloc-texte3 {
   margin-left: 40px;
 }
+
+/**
+* actualités et rencontres
+*/
+
+.news-list2 {
+    display: grid;
+    grid-gap: 35px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    margin-bottom: 35px;
+    margin: auto;
+    padding: 0 15px;
+    width: 1200px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.news-list2 .news-list__news--main2 {
+  grid-column: span 4;
+}
+
+.news-list__news2 {
+  grid-column: span 1;
+
+}
+.news-big2 {
+  grid-column: span 2;
+
+}
+
+.news-texte2 {
+  grid-column: span 2;
+
+  text-align: left;
+}
+
+.news-big3 {
+  display: block;
+  grid-column: span 2;
+}
+
+.news__text2 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.news__title2 {
+  margin: 0 0 15px;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.4;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}
